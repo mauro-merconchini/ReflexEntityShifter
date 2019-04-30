@@ -4,9 +4,11 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.Scanner;
 
+/**
+ * This class takes care of processing the map file and shifting the entities
+ */
 public class MapProcessor
 {
     //This string will hold the name of the map file (or the path)
@@ -69,22 +71,17 @@ public class MapProcessor
     {
         createLinesArray();
 
-        //These two integers will hold the values for which a gap will be left for the vertex groups
-        //Initialized to unreachable values
-        //int startGap = lines.length + 1;
-        //int endGap = lines.length + 1;
-
         //This process will find the start and end of a vertex group (in between "vertices" and "faces") and call the helper method
         for (int i = 0; i < lines.length; i++)
         {
+            //If the line contains the tokens we are looking for
             if (lines[i].contains("Vector3 position"))
             {
-                //System.out.println("Found an entity position at line " + i);
-
+                //Run through the process to shift the entities
                 processEntity(i, xShift, yShift, zShift);
             }
 
-            //Else, write the lines normally
+            //Else, write the line normally
             else
             {
                 mapWriter.write(lines[i] + "\n");
@@ -137,7 +134,7 @@ public class MapProcessor
     }
 
     /**
-     * When called, this method will extract the vertices
+     * When called, this method will shift all entities
      */
     private void processEntity(int line, int xShift, int yShift, int zShift) throws IOException
     {
