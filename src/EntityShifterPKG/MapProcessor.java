@@ -49,14 +49,17 @@ public class MapProcessor
             //Tell the user everything is honky dory for the scanner
             System.out.println("\nLoaded your file: " + mapFile);
 
+            //The name of the file with the modification in the name
+            String partialFileName = mapFile.substring(0, mapFile.length() - 4);
+
             //Initialize the file writer
-            mapWriter = new FileWriter(mapFile.substring(0, mapFile.length() - 4) + "_processed.map");
+            mapWriter = new FileWriter(partialFileName + "_EntityShifted.map");
 
             //Tell the user everything is honky dory for the writer
-            System.out.println("Initialized empty map file for writing: " + "processed_" + mapFile);
+            System.out.println("Initialized empty map file for writing: " + partialFileName + "_EntityShifted.map");
 
             lines = new String[lineCount()];
-            System.out.println("\nCreated array of lines with size " + lines.length);
+            System.out.println("Created array of lines with size " + lines.length + "\n");
         }
     }
 

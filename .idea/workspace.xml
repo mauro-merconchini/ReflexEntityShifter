@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ReflexEntityShifter:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="af2c0457-9952-47e6-bd64-6b1abe306216" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ReflexEntityShifter_jar/ReflexEntityShifter.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ReflexEntityShifter_jar/ReflexEntityShifter.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ReflexEntityShifter/EntityShifterPKG/MapProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ReflexEntityShifter/EntityShifterPKG/MapProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ReflexEntityShifter/cpm5_entshifted.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/EntityShifterPKG/MapProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EntityShifterPKG/MapProcessor.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -16,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/EntityShifterPKG/MapProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1102">
-              <caret line="136" column="55" selection-start-line="136" selection-start-column="55" selection-end-line="136" selection-end-column="55" />
+            <state relative-caret-position="420">
+              <caret line="62" column="9" lean-forward="true" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -74,7 +83,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556584902844" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556588408519" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -158,8 +167,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/EntityShifterPKG/MapProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1102">
-          <caret line="136" column="55" selection-start-line="136" selection-start-column="55" selection-end-line="136" selection-end-column="55" />
+        <state relative-caret-position="420">
+          <caret line="62" column="9" lean-forward="true" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -172,10 +181,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>ReflexEntityShifter:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

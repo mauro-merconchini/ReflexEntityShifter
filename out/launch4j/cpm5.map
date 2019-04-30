@@ -27794,25 +27794,25 @@ global
 		UInt8 angleLerp 2
 	entity
 		type PlayerSpawn
-		Vector3 position 76.000000 912.000000 -140.000000
+		Vector3 position -180.000000 656.000000 -396.000000
 		Vector3 angles -45.000000 0.000000 0.000000
 	entity
 		type PlayerSpawn
-		Vector3 position 96.000000 912.000000 704.000000
+		Vector3 position -160.000000 656.000000 448.000000
 		Vector3 angles -495.000000 0.000000 0.000000
 	entity
 		type PlayerSpawn
-		Vector3 position -1130.000000 912.000000 809.999878
+		Vector3 position -1386.000000 656.000000 553.999878
 		Vector3 angles -270.000000 0.000000 0.000000
 	entity
 		type Effect
-		Vector3 position -274.000000 752.000000 -102.000061
+		Vector3 position -530.000000 496.000000 -358.000061
 		Vector3 angles -180.000000 0.000000 0.000000
 		String64 effectName industrial/jumppad/jumppad
 		Float effectScale 0.400000
 	entity
 		type Effect
-		Vector3 position -274.000000 752.000000 -82.000000
+		Vector3 position -530.000000 496.000000 -338.000000
 		Vector3 angles -180.000000 0.000000 0.000000
 		String64 effectName industrial/jumppad/jumppad
 		Float effectScale 0.400000
@@ -27875,29 +27875,29 @@ global
 			0.000000 0.000000 1.000000 1.000000 0.000000 3 6 5 7 0x00000000 
 	entity
 		type Effect
-		Vector3 position -322.000000 752.000000 -82.000061
+		Vector3 position -578.000000 496.000000 -338.000061
 		Vector3 angles -360.000000 0.000000 0.000000
 		String64 effectName industrial/jumppad/jumppad
 		Float effectScale 0.400000
 	entity
 		type Effect
-		Vector3 position -322.000000 752.000000 -102.000000
+		Vector3 position -578.000000 496.000000 -358.000000
 		Vector3 angles -360.000000 0.000000 0.000000
 		String64 effectName industrial/jumppad/jumppad
 		Float effectScale 0.400000
 	entity
 		type Target
-		Vector3 position -296.000000 1000.000000 -154.000000
+		Vector3 position -552.000000 744.000000 -410.000000
 		String32 name jp1
 	entity
 		type Effect
-		Vector3 position -296.000000 1156.000000 192.000000
+		Vector3 position -552.000000 900.000000 -64.000000
 		String64 effectName gothic/gargoyle/gothic_gargoyle_01
 		Float effectScale 0.600000
 		String256 material0Name common/materials/stone/stone
 	entity
 		type Effect
-		Vector3 position 36.000000 1240.000000 -16.000000
+		Vector3 position -220.000000 984.000000 -272.000000
 		String64 effectName industrial/lights/light_rnd
 		Float effectScale 1.500000
 		String256 material1Name common/materials/effects/glow
@@ -27912,7 +27912,7 @@ global
 		Bool8 spotLightCastsShadow 1
 	entity
 		type Effect
-		Vector3 position 36.000000 1238.000000 -148.000000
+		Vector3 position -220.000000 982.000000 -404.000000
 		String64 effectName industrial/lights/light_rnd
 		Float effectScale 1.500000
 		ColourARGB32 material1Albedo fff1c167
@@ -27926,7 +27926,7 @@ global
 		Bool8 spotLightCastsShadow 1
 	entity
 		type Effect
-		Vector3 position 36.000000 1238.000000 112.000000
+		Vector3 position -220.000000 982.000000 -144.000000
 		String64 effectName industrial/lights/light_rnd
 		Float effectScale 1.500000
 		String256 material1Name common/materials/effects/glow
@@ -27941,7 +27941,7 @@ global
 		Bool8 spotLightCastsShadow 1
 	entity
 		type Effect
-		Vector3 position -10.000000 1116.000000 -212.000000
+		Vector3 position -266.000000 860.000000 -468.000000
 		Vector3 angles -270.000000 180.000000 0.000000
 		String64 effectName industrial/lights/light_wall_barn
 		String256 material1Name common/materials/glass/glass
@@ -27959,7 +27959,7 @@ global
 		Float spotLightIntensity 2.000000
 	entity
 		type Effect
-		Vector3 position -92.000000 1006.000000 -20.000000
+		Vector3 position -348.000000 750.000000 -276.000000
 		Vector3 angles -270.000000 0.000000 0.000000
 		String64 effectName gothic/lights/light_torch_wall/light_torch_wall
 		Float effectScale 1.500000
@@ -27970,7 +27970,7 @@ global
 		Float pointLightIntensity 2.500000
 	entity
 		type Effect
-		Vector3 position -456.000000 1122.000000 64.000000
+		Vector3 position -712.000000 866.000000 -192.000000
 		Vector3 angles -450.000000 0.000000 0.000000
 		String64 effectName gothic/lights/light_torch_wall/light_torch_wall
 		Float effectScale 1.500000
@@ -27981,7 +27981,7 @@ global
 		Float pointLightIntensity 2.500000
 	entity
 		type Effect
-		Vector3 position -636.000000 1238.000000 112.000000
+		Vector3 position -892.000000 982.000000 -144.000000
 		String64 effectName industrial/lights/light_rnd
 		Float effectScale 1.500000
 		String256 material1Name common/materials/effects/glow
@@ -27996,7 +27996,7 @@ global
 		Bool8 spotLightCastsShadow 1
 	entity
 		type Effect
-		Vector3 position -636.000000 1240.000000 -16.000000
+		Vector3 position -892.000000 984.000000 -272.000000
 		String64 effectName industrial/lights/light_rnd
 		Float effectScale 1.500000
 		String256 material1Name common/materials/effects/glow
@@ -28011,7 +28011,7 @@ global
 		Bool8 spotLightCastsShadow 1
 	entity
 		type Effect
-		Vector3 position -636.000000 1238.000000 -148.000000
+		Vector3 position -892.000000 982.000000 -404.000000
 		String64 effectName industrial/lights/light_rnd
 		Float effectScale 1.500000
 		String256 material1Name common/materials/effects/glow
@@ -28026,7 +28026,7 @@ global
 		Bool8 spotLightCastsShadow 1
 	entity
 		type Effect
-		Vector3 position -622.000000 1114.000000 -212.000000
+		Vector3 position -878.000000 858.000000 -468.000000
 		Vector3 angles -270.000000 180.000000 0.000000
 		String64 effectName industrial/lights/light_wall_barn
 		String256 material1Name common/materials/glass/glass
@@ -28044,16 +28044,16 @@ global
 		Float spotLightIntensity 2.000000
 	entity
 		type PointLight
-		Vector3 position -300.000000 1170.000000 204.000000
+		Vector3 position -556.000000 914.000000 -52.000000
 		ColourXRGB32 color ffff0000
 	entity
 		type PointLight
-		Vector3 position -304.000000 1182.000000 246.000000
+		Vector3 position -560.000000 926.000000 -10.000000
 		ColourXRGB32 color ffff0000
 		Float intensity 1.300000
 	entity
 		type Effect
-		Vector3 position -238.000000 1094.000000 -256.000000
+		Vector3 position -494.000000 838.000000 -512.000000
 		Vector3 angles -90.000000 0.000000 0.000000
 		String64 effectName industrial/lights/light_rnd
 		Float effectScale 1.500000
@@ -28068,7 +28068,7 @@ global
 		Bool8 spotLightCastsShadow 1
 	entity
 		type Effect
-		Vector3 position -370.000000 1096.000000 -256.000000
+		Vector3 position -626.000000 840.000000 -512.000000
 		Vector3 angles -90.000000 0.000000 0.000000
 		String64 effectName industrial/lights/light_rnd
 		Float effectScale 1.500000
