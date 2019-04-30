@@ -18,7 +18,7 @@ After placing a *Reflex Arena* **.map** file in the same directory as the execut
 ReflexEntityShifter <myMap>.map shift-X shift-Y shift-Z
 ```
 
-Where ```shift-X```, ```shift-Y```, and ```shift-Z``` are the values by which you wish to shift every vertex of each entity.
+Where ```shift-X```, ```shift-Y```, and ```shift-Z``` are the values by which you wish to shift each entity.
 
 For example, running the command
 
